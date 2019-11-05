@@ -12,6 +12,6 @@ target_include_directories(libgl3w
 )
 
 target_link_libraries(libgl3w
-    PUBLIC
+    PRIVATE
     ${CMAKE_DL_LIBS}
 )
